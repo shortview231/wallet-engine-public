@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+
+  <style>
+    .bg { fill: #0f1726; }
+    .panel { fill: #111b2f; stroke: #2a3956; stroke-width: 1; }
+    .muted { fill: #9fb0cb; font: 16px 'DejaVu Sans', sans-serif; }
+    .title { fill: #dfe8f6; font: 32px 'DejaVu Sans', sans-serif; }
+    .heading { fill: #a7b8d4; font: 18px 'DejaVu Sans', sans-serif; }
+    .value { fill: #eef4ff; font: 20px 'DejaVu Sans', sans-serif; font-weight: bold; }
+    .small { fill: #9fb0cb; font: 12px 'DejaVu Sans', sans-serif; }
+    .table { fill: #d7e0ee; font: 15px 'DejaVu Sans', sans-serif; }
+    .ok { fill: #56d38b; font: 15px 'DejaVu Sans', sans-serif; }
+    .warn { fill: #f08f8f; font: 15px 'DejaVu Sans', sans-serif; }
+  </style>
+
+  <rect class="bg" width="1440" height="900"/>
+  <text class="title" x="32" y="64">Desktop-first wallet operations engine</text>
+  <text class="muted" x="32" y="104">Proxy demonstration of ledger derivation, posting anchors, and transaction load monitoring.</text>
+  <rect class="panel" x="32" y="148" width="320" height="128" rx="16"/>
+  <rect class="panel" x="372" y="148" width="320" height="128" rx="16"/>
+  <rect class="panel" x="712" y="148" width="320" height="128" rx="16"/>
+  <rect class="panel" x="1052" y="148" width="320" height="128" rx="16"/>
+  <text class="heading" x="52" y="192">Current Balance (Derived)</text>
+  <text class="value" x="52" y="236">$2,842.16</text>
+  <text class="heading" x="392" y="192">Latest Posted Balance</text>
+  <text class="value" x="392" y="236">$2,719.34</text>
+  <text class="heading" x="732" y="192">Oldest Known Balance</text>
+  <text class="value" x="732" y="236">$412.55</text>
+  <text class="heading" x="1072" y="192">Transactions Loaded</text>
+  <text class="value" x="1072" y="236">148</text>
+  <rect class="panel" x="32" y="308" width="1340" height="520" rx="16"/>
+  <text class="heading" x="56" y="348">Ledger Transactions</text>
+  <text class="muted" x="56" y="392">Balance legend: plain value = posted bank balance, derived value = projected from latest posted anchor + transaction amounts.</text>
+  <text class="table" x="56" y="460">2026-04-07</text><text class="table" x="280" y="460">INSTANT PAYOUT - DELIVERY PLATFORM</text><text class="table" x="900" y="460">$128.42</text><text class="table" x="1100" y="460">$2,842.16 (derived)</text>
+  <text class="table" x="56" y="520">2026-04-06</text><text class="table" x="280" y="520">RENT PAYMENT - ACH</text><text class="table" x="900" y="520">-$1,280.00</text><text class="table" x="1100" y="520">$2,713.74</text>
+  <text class="table" x="56" y="580">2026-04-06</text><text class="table" x="280" y="580">GROCERY - MARKET HALL</text><text class="table" x="900" y="580">-$46.17</text><text class="table" x="1100" y="580">$2,761.51</text>
+  <text class="small" x="56" y="780">Proxy UI artifact for public repo documentation only. Real financial values are not published.</text>
+</svg>

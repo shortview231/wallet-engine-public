@@ -1,0 +1,9 @@
+{
+  "snapshot_date": "2026-04-07",
+  "current_balance_derived": 2842.16,
+  "latest_posted_balance": 2719.34,
+  "oldest_known_balance": 412.55,
+  "transactions_loaded": 148,
+  "rows_missing_posted_balance": 14,
+  "notes": "Proxy data for public architecture demonstration only."
+}

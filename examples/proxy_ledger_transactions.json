@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "date": "2026-04-07",
+      "description": "INSTANT PAYOUT - DELIVERY PLATFORM",
+      "amount": 128.42,
+      "balance": 2842.16,
+      "balance_type": "derived",
+      "source": "payout"
+    },
+    {
+      "date": "2026-04-06",
+      "description": "RENT PAYMENT - ACH",
+      "amount": -1280.0,
+      "balance": 2713.74,
+      "balance_type": "posted",
+      "source": "bank"
+    },
+    {
+      "date": "2026-04-06",
+      "description": "GROCERY - MARKET HALL",
+      "amount": -46.17,
+      "balance": 2761.51,
+      "balance_type": "posted",
+      "source": "bank"
+    },
+    {
+      "date": "2026-04-05",
+      "description": "SSA TREAS - BENEFIT CREDIT",
+      "amount": 1802.0,
+      "balance": 2807.68,
+      "balance_type": "posted",
+      "source": "bank"
+    },
+    {
+      "date": "2026-04-04",
+      "description": "TRANSFER FROM CASH APP",
+      "amount": 75.0,
+      "balance": 1005.68,
+      "balance_type": "posted",
+      "source": "bank"
+    },
+    {
+      "date": "2026-04-04",
+      "description": "WIRELESS BILL - AUTOPAY",
+      "amount": -82.0,
+      "balance": 930.68,
+      "balance_type": "posted",
+      "source": "bank"
+    }
+  ]
+}

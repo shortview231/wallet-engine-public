@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "expense_name": "Rent",
+      "payer": "operator_a",
+      "expected_amount": 1280.0,
+      "due_day": 1,
+      "grace_days": 5,
+      "paid": true,
+      "last_paid_date": "2026-04-06",
+      "paid_amount": 1280.0,
+      "status": "paid_on_time",
+      "match_count": 1
+    },
+    {
+      "expense_name": "Electric",
+      "payer": "operator_a",
+      "expected_amount": 74.0,
+      "due_day": 18,
+      "grace_days": 4,
+      "paid": false,
+      "last_paid_date": null,
+      "paid_amount": null,
+      "status": "unpaid",
+      "match_count": 0
+    },
+    {
+      "expense_name": "Phone",
+      "payer": "operator_b",
+      "expected_amount": 95.0,
+      "due_day": 23,
+      "grace_days": 4,
+      "paid": false,
+      "last_paid_date": null,
+      "paid_amount": null,
+      "status": "unpaid",
+      "match_count": 0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+
+  <style>
+    .bg { fill: #0f1726; }
+    .panel { fill: #111b2f; stroke: #2a3956; stroke-width: 1; }
+    .muted { fill: #9fb0cb; font: 16px 'DejaVu Sans', sans-serif; }
+    .title { fill: #dfe8f6; font: 32px 'DejaVu Sans', sans-serif; }
+    .heading { fill: #a7b8d4; font: 18px 'DejaVu Sans', sans-serif; }
+    .value { fill: #eef4ff; font: 20px 'DejaVu Sans', sans-serif; font-weight: bold; }
+    .small { fill: #9fb0cb; font: 12px 'DejaVu Sans', sans-serif; }
+    .table { fill: #d7e0ee; font: 15px 'DejaVu Sans', sans-serif; }
+    .ok { fill: #56d38b; font: 15px 'DejaVu Sans', sans-serif; }
+    .warn { fill: #f08f8f; font: 15px 'DejaVu Sans', sans-serif; }
+  </style>
+
+  <rect class="bg" width="1440" height="900"/>
+  <text class="title" x="32" y="64">Expense matching and payment status</text>
+  <text class="muted" x="32" y="100">Proxy view showing expected obligations, payment state, and match counts.</text>
+  <rect class="panel" x="32" y="140" width="1376" height="700" rx="16"/>
+  <text class="heading" x="56" y="186">Expense</text><text class="heading" x="300" y="186">Payer</text><text class="heading" x="430" y="186">Expected</text><text class="heading" x="630" y="186">Due</text><text class="heading" x="730" y="186">Grace</text><text class="heading" x="830" y="186">Paid</text><text class="heading" x="930" y="186">Last Paid</text><text class="heading" x="1110" y="186">Status</text><text class="heading" x="1290" y="186">Matches</text>
+  <text class="table" x="56" y="250">Rent</text><text class="table" x="300" y="250">operator_a</text><text class="table" x="430" y="250">$1,280.00</text><text class="table" x="630" y="250">1</text><text class="table" x="730" y="250">5</text><text class="table" x="830" y="250">Yes</text><text class="table" x="930" y="250">2026-04-06</text><text class="ok" x="1110" y="250">Paid On Time</text><text class="table" x="1290" y="250">1</text>
+  <text class="table" x="56" y="310">Electric</text><text class="table" x="300" y="310">operator_a</text><text class="table" x="430" y="310">$74.00</text><text class="table" x="630" y="310">18</text><text class="table" x="730" y="310">4</text><text class="table" x="830" y="310">No</text><text class="table" x="930" y="310">N/A</text><text class="warn" x="1110" y="310">Unpaid</text><text class="table" x="1290" y="310">0</text>
+  <text class="table" x="56" y="370">Phone</text><text class="table" x="300" y="370">operator_b</text><text class="table" x="430" y="370">$95.00</text><text class="table" x="630" y="370">23</text><text class="table" x="730" y="370">4</text><text class="table" x="830" y="370">No</text><text class="table" x="930" y="370">N/A</text><text class="warn" x="1110" y="370">Unpaid</text><text class="table" x="1290" y="370">0</text>
+  <text class="small" x="56" y="796">Proxy UI artifact aligned to examples/proxy_expenses.json.</text>
+</svg>

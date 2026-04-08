@@ -16,4 +16,4 @@ The working implementation is a local ingestion bridge centered on a controlled 
 
 ## Public baseline boundary
 
-This public repo should document the engine and its security model without shipping live datasets. Any future examples must come from separately prepared demo-safe artifacts.
+This public repo documents the engine and its security model without shipping live datasets. The included examples and visuals are recreated from proxy values and exist only to demonstrate workflow and structure.

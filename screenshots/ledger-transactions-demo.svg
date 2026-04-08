@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+
+  <style>
+    .bg { fill: #0f1726; }
+    .panel { fill: #111b2f; stroke: #2a3956; stroke-width: 1; }
+    .muted { fill: #9fb0cb; font: 16px 'DejaVu Sans', sans-serif; }
+    .title { fill: #dfe8f6; font: 32px 'DejaVu Sans', sans-serif; }
+    .heading { fill: #a7b8d4; font: 18px 'DejaVu Sans', sans-serif; }
+    .value { fill: #eef4ff; font: 20px 'DejaVu Sans', sans-serif; font-weight: bold; }
+    .small { fill: #9fb0cb; font: 12px 'DejaVu Sans', sans-serif; }
+    .table { fill: #d7e0ee; font: 15px 'DejaVu Sans', sans-serif; }
+    .ok { fill: #56d38b; font: 15px 'DejaVu Sans', sans-serif; }
+    .warn { fill: #f08f8f; font: 15px 'DejaVu Sans', sans-serif; }
+  </style>
+
+  <rect class="bg" width="1440" height="900"/>
+  <text class="title" x="32" y="64">Normalized ledger transactions</text>
+  <text class="muted" x="32" y="100">Proxy rows showing date, description, amount, and posted/derived balance interpretation.</text>
+  <rect class="panel" x="32" y="140" width="1376" height="700" rx="16"/>
+  <text class="heading" x="56" y="186">Showing 6 proxy rows</text>
+  <text class="heading" x="56" y="242">Date</text><text class="heading" x="280" y="242">Description</text><text class="heading" x="920" y="242">Amount</text><text class="heading" x="1130" y="242">Balance</text>
+  <text class="table" x="56" y="300">2026-04-07</text><text class="table" x="280" y="300">INSTANT PAYOUT - DELIVERY PLATFORM</text><text class="table" x="920" y="300">$128.42</text><text class="table" x="1130" y="300">$2,842.16 (derived)</text>
+  <text class="table" x="56" y="360">2026-04-06</text><text class="table" x="280" y="360">RENT PAYMENT - ACH</text><text class="table" x="920" y="360">-$1,280.00</text><text class="table" x="1130" y="360">$2,713.74</text>
+  <text class="table" x="56" y="420">2026-04-06</text><text class="table" x="280" y="420">GROCERY - MARKET HALL</text><text class="table" x="920" y="420">-$46.17</text><text class="table" x="1130" y="420">$2,761.51</text>
+  <text class="table" x="56" y="480">2026-04-05</text><text class="table" x="280" y="480">SSA TREAS - BENEFIT CREDIT</text><text class="table" x="920" y="480">$1,802.00</text><text class="table" x="1130" y="480">$2,807.68</text>
+  <text class="table" x="56" y="540">2026-04-04</text><text class="table" x="280" y="540">TRANSFER FROM CASH APP</text><text class="table" x="920" y="540">$75.00</text><text class="table" x="1130" y="540">$1,005.68</text>
+  <text class="table" x="56" y="600">2026-04-04</text><text class="table" x="280" y="600">WIRELESS BILL - AUTOPAY</text><text class="table" x="920" y="600">-$82.00</text><text class="table" x="1130" y="600">$930.68</text>
+  <text class="small" x="56" y="796">Proxy dataset aligned to examples/proxy_ledger_transactions.json.</text>
+</svg>

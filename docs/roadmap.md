@@ -3,14 +3,19 @@
 ## Baseline
 
 - Publish the ingestion architecture and security posture
-- Document the air-gapped bridge flow
-- Keep the initial public repo fully docs-only
+- Document the air-gapped bridge and ledger flow
+- Ship proxy examples and recreated demonstration visuals
+- Keep all public artifacts strictly demo-safe
+
+## Current documented direction
+
+- Wallet engine journal-driven publishing pipeline
 
 ## Next credible layer
 
-- Add fully redacted demo export examples
 - Add a schema-level walkthrough of the wallet reporting model
-- Add safe diagrams for validation, quarantine, ingest, and export stages
+- Add safe diagrams for validation, quarantine, ingest, ledger, and export stages
+- Add an example report artifact generated from proxy data
 
 ## Deferred
 

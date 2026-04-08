@@ -1,6 +1,6 @@
 # Overview
 
-`wallet-engine-public` is the outward-facing baseline for the ingestion and wallet reporting model that currently lives in `Luna_Ingestion`.
+`wallet-engine-public` is the outward-facing baseline for the wallet operations engine that currently lives across Luna's ingestion and reporting systems.
 
 ## Current evidence
 
@@ -14,6 +14,15 @@ The strongest current public story is the architecture:
 - air-gapped intake
 - validation and quarantine
 - local ingestion into SQLite
+- ledger derivation and expense matching
 - sanitized exports for downstream systems
 
-The first export is docs-only because the existing live snapshot files are not appropriate to publish as-is.
+This repo now includes a controlled proof pack built from proxy data and recreated demo visuals so the engine can be shown without exposing real financial information.
+
+## Recent Journal-Derived Work
+
+- Journal-driven wallet repo updates now feed both shadow repos and portfolio publishing.
+- Journal-driven repo generation now refreshes the wallet-engine-public shadow repo from outward-safe structured entries.
+- The same journal selection can also prepare the matching portfolio/pages bundle input for shortview231.github.io.
+- Luna_Export remains the controlled Git-aware promotion layer for snapshotting, apply, commit, and push steps.
+- Finalized multi-repo journal-driven publishing so one structured journal source can target all active public repo baselines and the portfolio/pages path.

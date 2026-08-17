@@ -1,48 +1,82 @@
 # Wallet Engine Public
 
-Public-facing baseline for Luna's wallet ingestion, ledger, and expense-matching engine.
+**Public-safe demonstration of a financial data ingestion, normalization, ledger, and expense-matching workflow.**
 
-This repo documents the engine behind a desktop-first wallet operations surface. The public baseline is intentionally engine-first: it focuses on controlled ingestion, normalization, balance derivation, expense matching, and outward-safe exports. It does not publish live financial data, secrets, or personal records.
+## Recruiter snapshot
+
+**Problem:** personal financial data arrives from multiple sources and needs to be validated, normalized, reconciled, and turned into trustworthy operational state without exposing private records.
+
+**Solution:** Wallet Engine uses a controlled pipeline to move incoming signals into a local system of record, derive balances, match expected expenses to payments, and generate outward-safe reporting surfaces.
+
+**Flow:**
+
+`ingest -> validate/quarantine -> normalize -> ledger -> derive balances -> match expenses -> safe export`
+
+**Demonstrates:** data ingestion, normalization, local state management, reconciliation logic, privacy boundaries, reporting workflows, and automation-oriented system design.
 
 ## What the engine does
 
 - ingests controlled upstream financial and operational signals
-- validates and quarantines unsafe inputs
+- validates and quarantines unsafe or malformed inputs
 - normalizes records into a local system of record
 - derives usable ledger and balance state
 - matches expected expenses against payments
 - exports outward-safe reporting surfaces
 
-## What this public repo includes
+## Why this matters
+
+This is not presented as a banking product. It is a portfolio example of the same kind of work found in data operations and business systems roles: combining messy inputs, enforcing a consistent schema, maintaining reliable state, reconciling records, and exposing results without leaking sensitive source data.
+
+## Public proof layer
+
+This repository intentionally demonstrates the system without publishing private financial information.
+
+Included:
 
 - architecture and workflow documentation
-- proxy datasets that mirror the real data shape
+- proxy datasets matching the real data shape
 - recreated demo screenshots using proxy values
-- explicit safety boundaries for public publication
+- explicit safety boundaries for publication
 
-## What this repo does not include
+Proof artifacts include:
 
-- Live banking data
-- Raw CSV imports
-- Secrets or `.env` values
-- Original screenshots containing real values
-- The Luna UI implementation as the primary product surface
+- `screenshots/ledger-overview-demo.svg` - posted vs derived balance logic
+- `screenshots/ledger-transactions-demo.svg` - normalized ledger rows and balance interpretation
+- `screenshots/expenses-matching-demo.svg` - expected-expense and payment-state handling
+- `examples/` - public-safe sample data used for demonstrations
 
-## Source of truth
+## Privacy boundary
+
+This public repository does **not** include:
+
+- live banking data
+- private raw imports
+- secrets or `.env` values
+- original screenshots containing real financial values
+- personal account identifiers
+
+The working implementation remains separate from the public proof surface.
+
+## Public/private architecture
 
 The working implementation source lives in `~/Desktop/Projects/Luna_Ingestion`.
 
-## Proof layer
+The public repo functions as a controlled outward-facing baseline. That separation allows the architecture, proxy data, and proof artifacts to be evaluated without treating real financial records as portfolio material.
 
-- `screenshots/ledger-overview-demo.svg` shows posted vs derived balance logic
-- `screenshots/ledger-transactions-demo.svg` shows normalized ledger rows and balance interpretation
-- `screenshots/expenses-matching-demo.svg` shows expected-expense tracking and payment state handling
-- `examples/` contains matching proxy data used only for public demonstration
+## Journal-driven publication workflow
 
-## Current Journal-Driven Emphasis
+Structured journal entries can feed public-safe repository updates and portfolio publishing. Luna_Export provides the controlled Git-aware promotion layer for snapshotting, approval, commit, and push steps.
 
-- Journal-driven wallet repo updates now feed both shadow repos and portfolio publishing.
-- Journal-driven repo generation now refreshes the wallet-engine-public shadow repo from outward-safe structured entries.
-- The same journal selection can also prepare the matching portfolio/pages bundle input for shortview231.github.io.
-- Luna_Export remains the controlled Git-aware promotion layer for snapshotting, apply, commit, and push steps.
-- Finalized multi-repo journal-driven publishing so one structured journal source can target all active public repo baselines and the portfolio/pages path.
+This makes the portfolio output itself part of the workflow rather than a manually maintained afterthought.
+
+## Portfolio relevance
+
+This project is most relevant to roles involving:
+
+- data operations
+- reconciliation and data quality
+- reporting
+- financial/operations data workflows
+- automation
+- business systems
+- internal tooling
